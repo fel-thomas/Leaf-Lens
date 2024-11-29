@@ -24,6 +24,8 @@
     --md-primary-fg-color--light: var(--primary);
     --md-primary-fg-color--dark: var(--primary);
     --md-accent-fg-color: var(--synthax-blue);
+
+    --text-color: var(--dark);
 }
 
 [data-md-color-scheme="slate"] {
@@ -40,6 +42,8 @@
     --md-primary-fg-color--light: var(--primary) !important;
     --md-primary-fg-color--dark: var(--primary) !important;
     --md-accent-fg-color: var(--synthax-blue) !important;
+
+    --text-color: white;
 }
 
 
