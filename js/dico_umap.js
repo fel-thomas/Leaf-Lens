@@ -66,11 +66,11 @@ const ctx_dico = document.getElementById('scatterDico').getContext('2d');
                                 <strong><a href="${link}" target="_blank" style="text-decoration: none; color: black;">${label}</a></strong>
                                 <br>
                                 <div style="display: flex; flex-direction: row; justify-content: center; width: 100%; box-sizing: border-box;">
-                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae/concept_${cls_id}_fv.png"
+                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_${cls_id}_fv.png"
                                         style="width: 50%; object-fit: contain;"/>
-                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae/concept_${cls_id}_0.png"
+                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_${cls_id}_0.png"
                                         style="width: 25%; object-fit: contain;"/>
-                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae/concept_${cls_id}_1.png"
+                                    <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_${cls_id}_1.png"
                                         style="width: 25%; object-fit: contain;"/>
                                 </div>
                             </div>
