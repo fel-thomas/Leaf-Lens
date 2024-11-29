@@ -19,15 +19,6 @@ carts.map(car => {
         })
         // if possible, show the most similar classes
         let concept_id = car.id.split('-')[1]
-        if (concept_id in concept_to_classes) {
-            document.querySelector('.classes-proximity-info').innerHTML = concept_to_classes[concept_id]
-            document.querySelector('.classes-proximity').style.borderColor = car.style.borderColor
-            document.querySelector('.classes-proximity').style.opacity = 1.0
-        } else {
-            document.querySelector('.classes-proximity-info').innerHTML = ""
-            document.querySelector('.classes-proximity').style.borderColor = "white"
-            document.querySelector('.classes-proximity').opacity = 0.0
-        }
         // remove the previous selected
         carts.map(c => {
             if (c.id != car.id) {
