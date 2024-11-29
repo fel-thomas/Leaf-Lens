@@ -1,5 +1,6 @@
 :root {
-    --primary: rgb(63, 81, 181);
+    /*--primary: rgb(63, 81, 181);*/
+    --primary: rgb(76, 175, 80);
     --synthax-blue: var(--primary);
     --md-accent-fg-color: var(--synthax-blue);
     --shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -13,7 +14,8 @@
 [data-md-color-scheme="default"] {
     /* dark theme */
     /*--primary: #ecb22e;--synthax-blue: #ecb22e;*/
-    --primary: rgb(63, 81, 181);
+    /*--primary: rgb(63, 81, 181);*/
+    --primary: rgb(76, 175, 80);
     --synthax-blue: var(--primary);
     --dark: #313131;
     --synthax-red: #03DAC6;
@@ -28,12 +30,16 @@
     /* dark theme */
     /*--primary: #ecb22e;--synthax-blue: #ecb22e;*/
     --dark: #313131;
+
+    --primary: rgb(139, 195, 74);
+    --synthax-blue: var(--primary);
+
     --synthax-red: #03DAC6;
-    --md-typeset-a-color: var(--synthax-blue);
-    --md-primary-fg-color: var(--primary);
-    --md-primary-fg-color--light: var(--primary);
-    --md-primary-fg-color--dark: var(--primary);
-    --md-accent-fg-color: var(--synthax-blue);
+    --md-typeset-a-color: var(--synthax-blue) !important;
+    --md-primary-fg-color: var(--primary) !important;
+    --md-primary-fg-color--light: var(--primary) !important;
+    --md-primary-fg-color--dark: var(--primary) !important;
+    --md-accent-fg-color: var(--synthax-blue) !important;
 }
 
 
@@ -234,7 +240,7 @@ span {
 
 .brown-txt,
 .brown-txt:hover {
-    color: rgb(218, 56, 49) !important;
+    color: var(--primary) !important;
 }
 
 .blue-deel {
@@ -307,7 +313,6 @@ span {
     justify-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url('../assets/logo.png');
 }
 
 .gif-intro {

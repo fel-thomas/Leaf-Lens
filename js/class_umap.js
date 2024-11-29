@@ -60,7 +60,7 @@ const ctx_cls = document.getElementById('scatterClass').getContext('2d');
                         const content = points.map(({point}) => {
                             const label = point.label;
                             const cls_id = point.cls_id;
-                            const link = `/class/${label}`;
+                            const link = `/classes/${label}`;
                             return `<strong><a href="${link}" target="_blank">${label}</a></strong>`;
                         }).join('<br>');
 
