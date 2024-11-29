@@ -60,7 +60,7 @@ const ctx_dico = document.getElementById('scatterDico').getContext('2d');
                         const content = points.map(({point}) => {
                             const label = point.label;
                             const cls_id = point.cls_id;
-                            const link = `/class/${label}`;
+                            const link = `./classes/${label}`;
                             return `
                             <div style="width: 500px; text-align: center;"> <!-- Fixed width -->
                                 <strong><a href="${link}" target="_blank" style="text-decoration: none; color: black;">${label}</a></strong>
