@@ -39,7 +39,7 @@ const ctx_cls = document.getElementById('scatterClass').getContext('2d');
                         const mouseY = chart.scales.y.getValueForPixel(tooltipModel.caretY);
 
                         // Calculate distances and filter points within the radius
-                        const radius = 0.5;
+                        const radius = 0.1;
                         const points = chart.data.datasets[0].data
                             .map((point, index) => {
                                 const dx = point.x - mouseX;
