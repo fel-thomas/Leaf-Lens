@@ -92,7 +92,7 @@ const ctx_cls = document.getElementById('scatterClass').getContext('2d');
                     const datasetIndex = elements[0].datasetIndex;
                     const dataPoint = this.data.datasets[datasetIndex].data[index];
                     const label = dataPoint.label;
-                    const link = `/classes/${label}`;
+                    const link = `./classes/${label}`;
                     window.open(link, '_blank'); // Open the link in a new tab
                 }
             }

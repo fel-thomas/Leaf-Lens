@@ -106,7 +106,7 @@ const ctx_dico = document.getElementById('scatterDico').getContext('2d');
                     const datasetIndex = elements[0].datasetIndex;
                     const dataPoint = this.data.datasets[datasetIndex].data[index];
                     const label = dataPoint.label;
-                    const link = `/concepts/${label}`;
+                    const link = `./concepts/${label}`;
                     window.open(link, '_blank'); // Open the link in a new tab
                 }
             }
