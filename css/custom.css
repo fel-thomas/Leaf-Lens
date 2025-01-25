@@ -625,6 +625,13 @@ span.important {
     border-radius: 10px;
 }
 
+.univ-logo {
+    width: auto;
+    height: 30px !important;
+    margin-top: -5px;
+    transform: translate(0px, 13px);
+}
+
 summary span {
     font-size: 0.8rem
 }
